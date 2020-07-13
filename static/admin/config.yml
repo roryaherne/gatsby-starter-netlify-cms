@@ -31,13 +31,8 @@ collections:
   - name: "featured_blogs"
     label: "Featured Blogs"
     folder: "src/pages/blog"
-<<<<<<< HEAD
     create: true
     filter: {field: "featuredpost", value: true}
-=======
-    create: true,
-    filter: {field: "featuredpost", value: "true"}
->>>>>>> b3dfd75ca178baa0eb49647b0b5b978dd6744836
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
